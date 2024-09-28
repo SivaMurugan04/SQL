@@ -1,0 +1,39 @@
+                                  Creation of Database
+                                  --------------------
+
+
+   We use the CREATE DATABASE statement to create a new database
+These commands are not case-sensitive.
+Command: CREATE DATABASE databaseName;
+Also to avoid errors we can use:
+Command: CREATE DATABASE IF NOT EXISTS databaseName
+
+     ---------------------------------------------------------------------------------------
+
+                                 Deletion of Database
+                                -----------------------
+
+   We use the DROP DATABASE statement to delete a database.
+Dropping a database means deleting the entire database, including all tables,
+data, and other objects within it. DROP Is a DDL Command.
+These commands are not case-sensitive.
+Command: DROP DATABASE databaseName;
+Also to avoid errors we can use:
+Command : DROP DATABASE IF EXISTS databaseName
+     -----------------------------------------------------------------------------------------------
+                                Using a Database
+                               -------------------   
+We use the USE DATABASE statement to use a database
+These commands are not case-sensitive.
+Command: USE databaseName
+
+       ---------------------------------------------------------------------------------------------
+
+
+                               Showing all the Database
+                              --------------------------
+We use the SHOW DATABASES statement to see all the databses present in a
+server.
+Command: SHOW DATABASES
+       ----------------------------------------------------------------------------------------------
+
