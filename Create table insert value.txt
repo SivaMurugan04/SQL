@@ -1,0 +1,23 @@
+        CREATE TABLE
+		------------
+        CREATE TABLE employee (
+        empId INT PRIMARY KEY,
+        name VARCHAR(50),
+        salary INT
+        );
+		
+		INSERT into values into in table
+		--------------------------------
+		
+		INSERT INTO employee
+        (empId,name,salary)
+        VALUES
+        (1,
+        ”Raj”
+        ,1200),
+        (2,
+        ”Rahul”
+        ,1100),
+        (3,
+        ”Riti”
+        ,1100)
